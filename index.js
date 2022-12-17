@@ -264,6 +264,11 @@ function dealCards()
     const areasTemplate = returnGridAreasMappedToCardPos()
 }
 
+function returnGridAreasMappedToCardPos()
+{
+
+}
+
 function addCardsToAppropriateCell()
 {
     cards.forEach((card) =>

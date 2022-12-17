@@ -34,6 +34,9 @@ function createCard(cardItem)
 
     // Add src attribute and appropriate value to the img element - Back of card
     addSrcToImageElem(cardBackElem, cardBackImgPath)
+
+    // Add src attribute and appropriate value to the img element - Back of card
+    addSrcToImageElem(cardFrontElem, cardItem.imagePath)
 }
 
 function createElement(elemType)

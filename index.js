@@ -162,3 +162,8 @@ function initializeNewRound()
 {
 
 }
+
+function collectionCards()
+{
+
+}

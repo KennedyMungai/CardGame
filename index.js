@@ -204,5 +204,11 @@ function flipCard(card, flipToBack)
 
 function flipCards(flipToBack)
 {
-
+    cards.forEach((card, index) =>
+    {
+        setTimeout(() =>
+        {
+            flipCard(card, flipToBack)
+        }, index * 100);
+    })
 }

@@ -1,6 +1,7 @@
 :root {
     --card-width: 157px;
     --card-height: 220px;
+    --num-card: 4;
 }
 
 .card-container {

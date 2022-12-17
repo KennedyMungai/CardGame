@@ -259,7 +259,7 @@ function initializeCardPositions()
 
 function dealCards()
 {
-
+    addCardsToAppropriateCell()
 }
 
 function addCardsToAppropriateCell()

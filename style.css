@@ -8,6 +8,7 @@
 .card-container {
     position: relative;
     height: 100%;
+    width: calc(var(--card-width) * (var(--num-cards) / 2) + var(--card-horizontal-space));
 }
 
 body {

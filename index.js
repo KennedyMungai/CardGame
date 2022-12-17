@@ -67,3 +67,8 @@ function addSrcToImageElem(imgELem, src)
 {
     imgELem.src = src
 }
+
+function addChildElement(parentElem, childElem)
+{
+    parentElem.appendChild(childElem)
+}

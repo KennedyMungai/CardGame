@@ -262,6 +262,8 @@ function dealCards()
     addCardsToAppropriateCell()
 
     const areasTemplate = returnGridAreasMappedToCardPos()
+
+    transformGridArea(areasTemplate)
 }
 
 function returnGridAreasMappedToCardPos()

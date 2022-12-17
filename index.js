@@ -175,3 +175,8 @@ function transformGridArea(areas)
 {
     cardContainerElem.style.gridTemplateAreas = areas
 }
+
+function addCardsToGridAreaCell(cellPositionClassName)
+{
+    const cellPositionElem = document.querySelector(cellPositionClassName)
+}

@@ -89,3 +89,13 @@ function addChildElement(parentElem, childElem)
 {
     parentElem.appendChild(childElem)
 }
+
+function addCardToGridCell(card)
+{
+
+}
+
+function mapCardToGridCell()
+{
+
+}

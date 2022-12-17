@@ -109,7 +109,7 @@ function addCardToGridCell(card)
     addChildElement(cardPosElem, card)
 }
 
-function mapCardToGridCell()
+function mapCardToGridCell(card)
 {
     if (card.id == 1)
     {

@@ -261,3 +261,11 @@ function dealCards()
 {
 
 }
+
+function addCardsToAppropriateCell()
+{
+    cards.forEach((card) =>
+    {
+        addCardToGridCell(card)
+    })
+}

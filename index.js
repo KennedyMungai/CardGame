@@ -244,4 +244,8 @@ function randomizeCardPositions()
     const random1 = Math.floor(Math.random() * numCards) + 1
     const random2 = Math.floor(Math.random() * numCards) + 1
 
+    const temp = cardPositions[random1 - 1]
+
+    cardPositions[random1 - 1] = cardPositions[random2 - 1]
+    cardPositions[random2 - 1] = temp
 }

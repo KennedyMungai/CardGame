@@ -166,7 +166,7 @@ function initializeNewRound()
 
 }
 
-function collectionCards()
+function collectCards()
 {
-
+    transformGridArea()
 }

@@ -222,6 +222,8 @@ function shuffleCards()
 
     function shuffle()
     {
+        randomizeCardPositions()
+
         if (shuffleCount == 500)
         {
             clearInterval(id)

@@ -169,6 +169,7 @@ function initializeNewRound()
 function collectCards()
 {
     transformGridArea(collapsedGridAreaTemplate)
+    addCardToGridCell(cardCollectionCellClass)
 }
 
 function transformGridArea(areas)

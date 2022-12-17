@@ -170,3 +170,8 @@ function collectCards()
 {
     transformGridArea(collapsedGridAreaTemplate)
 }
+
+function transformGridArea(areas)
+{
+
+}

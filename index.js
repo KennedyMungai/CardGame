@@ -17,7 +17,7 @@ function createCard(cardItem)
     const cardFrontImg = createElement('img')
     const cardBackImg = createElement('img')
 
-    addClassTOElement(cardElem, "card")
+    addClassToElement(cardElem, "card")
 }
 
 function createElement(elemType)
@@ -25,7 +25,12 @@ function createElement(elemType)
     return document.createElement(elemType)
 }
 
-function addClassTOElement(elem, className)
+function addClassToElement(elem, className)
 {
     elem.classList.add(className)
+}
+
+function addIdToElement(elem, id)
+{
+    elem.id = id
 }

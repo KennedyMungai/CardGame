@@ -159,6 +159,7 @@ function initializeNewGame()
 function startRound()
 {
     initializeNewGame()
+    collectCards()
 }
 
 function initializeNewRound()

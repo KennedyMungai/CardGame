@@ -22,3 +22,8 @@ function createElement(elemType)
 {
     return document.createElement(elemType)
 }
+
+function addClassTOElement(elem, className)
+{
+    elem.classList.add(className)
+}

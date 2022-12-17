@@ -60,6 +60,9 @@ function createCard(cardItem)
 
     // Added the inner element as a child of the card element
     addChildElement(cardElem, cardInnerElem)
+
+    // Add the card element as the child element to the appropriate grid cell
+
 }
 
 function createElement(elemType)

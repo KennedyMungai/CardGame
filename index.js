@@ -9,6 +9,8 @@ const cardBackImgPath = '/images/card-back-Blue.png'
 
 const cardContainerElem = document.querySelector('.card-container')
 
+createCards()
+
 function createCards()
 {
     cardObjectDefinitions.forEach((cardItem) =>

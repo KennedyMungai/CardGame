@@ -10,6 +10,13 @@
 
 body {
     height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    height: 55%;
+    display: flex;
+    justify-content: center;
 }
 
 .card {

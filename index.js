@@ -51,10 +51,10 @@ function createCard(cardItem)
     addSrcToImageElem(cardFrontImg, cardItem.imagePath)
 
     // Assign a class to the back image element of the back of the card
-    addClassToElement(cardBackElem, 'card-img')
+    addClassToElement(cardBackImg, 'card-img')
 
     // Assign a class to the front image element of the back of the card
-    addClassToElement(cardFrontElem, 'card-img')
+    addClassToElement(cardFrontImg, 'card-img')
 
     // Add front image element as a child element to the back of the card element
     addChildElement(cardFrontElem, cardFrontImg)

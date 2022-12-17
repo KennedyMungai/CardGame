@@ -97,5 +97,20 @@ function addCardToGridCell(card)
 
 function mapCardToGridCell()
 {
-
+    if (card.id == 1)
+    {
+        return '.card-pos-a'
+    }
+    else if (card.id == 2)
+    {
+        return '.card-pos-b'
+    }
+    else if (card.id == 3)
+    {
+        return '.card-pos-c'
+    }
+    else (card.id == 4)
+    {
+        return '.card-pos-d'
+    }
 }

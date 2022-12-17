@@ -26,6 +26,9 @@ function createCard(cardItem)
 
     // Add class to front card element
     addClassToElement(cardFrontElem, 'card-front')
+
+    // Add class to back card element
+    addClassToElement(cardBackElem, 'card-back')
 }
 
 function createElement(elemType)

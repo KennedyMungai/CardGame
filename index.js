@@ -160,6 +160,7 @@ function startRound()
 {
     initializeNewGame()
     collectCards()
+    flipCards()
 }
 
 function initializeNewRound()

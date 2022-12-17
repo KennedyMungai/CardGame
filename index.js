@@ -156,3 +156,8 @@ function startRound()
 {
 
 }
+
+function initializeNewRound()
+{
+
+}

@@ -20,6 +20,9 @@ function createCard(cardItem)
     // Add classes and ids to card elememts
     addClassToElement(cardElem, "card")
     addIdToElement(cardElem, cardItem.id)
+
+    // Add a class to the inner card element
+    addClassToElement(cardInnerElem, 'card-inner')
 }
 
 function createElement(elemType)

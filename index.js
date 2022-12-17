@@ -23,6 +23,9 @@ function createCard(cardItem)
 
     // Add a class to the inner card element
     addClassToElement(cardInnerElem, 'card-inner')
+
+    // Add class to front card element
+    addClassToElement(cardFrontElem, 'card-front')
 }
 
 function createElement(elemType)

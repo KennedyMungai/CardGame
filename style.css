@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    height: 55%;
+    height: 65%;
     display: flex;
     justify-content: center;
     border: 1px solid black;

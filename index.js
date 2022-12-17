@@ -18,6 +18,8 @@ const cardCollectionCellClass = ".card-pos-a"
 
 const numCards = cardObjectDefinitions.length
 
+const cardPositions = []
+
 loadGame()
 
 function createCards()
@@ -241,4 +243,5 @@ function randomizeCardPositions()
 {
     const random1 = Math.floor(Math.random() * numCards) + 1
     const random2 = Math.floor(Math.random() * numCards) + 1
+
 }

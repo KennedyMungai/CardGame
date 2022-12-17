@@ -179,4 +179,9 @@ function transformGridArea(areas)
 function addCardsToGridAreaCell(cellPositionClassName)
 {
     const cellPositionElem = document.querySelector(cellPositionClassName)
+
+    cards.forEach((card, index) =>
+    {
+        addChildElement(cellPositionElem, card)
+    })
 }

@@ -213,3 +213,8 @@ function flipCards(flipToBack)
         }, index * 100);
     })
 }
+
+function shuffleCards()
+{
+
+}

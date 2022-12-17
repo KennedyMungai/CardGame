@@ -84,6 +84,8 @@ function createCard(cardItem)
 
     // Add the card element as the child element to the appropriate grid cell
     addCardToGridCell(cardElem)
+
+    initializeCardPositions(cardElem)
 }
 
 function createElement(elemType)

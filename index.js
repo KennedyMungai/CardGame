@@ -187,3 +187,8 @@ function addCardsToGridAreaCell(cellPositionClassName)
         addChildElement(cellPositionElem, card)
     })
 }
+
+function flipCards(flipToBack)
+{
+
+}

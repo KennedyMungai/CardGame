@@ -134,6 +134,8 @@ function mapCardToGridCell(card)
 function loadGame()
 {
     createCards()
+
+    cards = document.querySelectorAll('.card')
 }
 
 function startGame()

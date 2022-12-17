@@ -234,3 +234,8 @@ function shuffleCards()
         }
     }
 }
+
+function randomizeCardPositions()
+{
+
+}

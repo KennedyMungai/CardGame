@@ -237,5 +237,5 @@ function shuffleCards()
 
 function randomizeCardPositions()
 {
-
+    const randomi = Math.floor(Math.random() * num)
 }

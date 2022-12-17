@@ -9,7 +9,7 @@ const cardBackImgPath = '/images/card-back-Blue.png'
 
 const cardContainerElem = document.querySelector('.card-container')
 
-createCards()
+loadGame()
 
 function createCards()
 {
@@ -127,4 +127,9 @@ function mapCardToGridCell(card)
     {
         return '.card-pos-d'
     }
+}
+
+function loadGame()
+{
+    createCards()
 }

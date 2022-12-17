@@ -13,6 +13,8 @@ let cards = []
 
 const playGameButtonElement = document.getElementById('playGame')
 
+const collapsedGridAreaTemplate = '"a a" "a a"'
+
 loadGame()
 
 function createCards()

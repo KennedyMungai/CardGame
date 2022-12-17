@@ -7,7 +7,10 @@ const cardObjectDefinitions = [
 
 function createCard(cardItem)
 {
-    const cardElem = document.createElement('div')
+    const cardElem = createElement('div')
+    const cardInnerElem = createElement('div')
+    const cardFrontElem = createElement('div')
+    const cardBackElem = createElement('div')
 }
 
 function createElement(elemType)

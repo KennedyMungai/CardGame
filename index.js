@@ -239,6 +239,6 @@ function shuffleCards()
 
 function randomizeCardPositions()
 {
-    const random1 = Math.floor(Math.random() * numCards)
-    const random2 = Math.floor(Math.random() * numCards)
+    const random1 = Math.floor(Math.random() * numCards) + 1
+    const random2 = Math.floor(Math.random() * numCards) + 1
 }

@@ -154,7 +154,7 @@ function initializeNewGame()
 
 function startRound()
 {
-
+    initializeNewGame()
 }
 
 function initializeNewRound()

@@ -138,6 +138,8 @@ function loadGame()
     createCards()
 
     cards = document.querySelectorAll('.card')
+
+    playGameButtonElement.addEventListener('click', () => startGame())
 }
 
 function startGame()

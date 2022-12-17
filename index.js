@@ -16,6 +16,8 @@ function createCard(cardItem)
     // Create the front and back elements for the card
     const cardFrontImg = createElement('img')
     const cardBackImg = createElement('img')
+
+    addClassTOElement(cardElem, "card")
 }
 
 function createElement(elemType)

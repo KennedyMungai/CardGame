@@ -8,6 +8,10 @@
     position: relative;
 }
 
+body {
+    height: 100vh;
+}
+
 .card {
     position: absolute;
     height: var(--card-height);

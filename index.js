@@ -92,7 +92,11 @@ function addChildElement(parentElem, childElem)
 
 function addCardToGridCell(card)
 {
+    const cardPositionClassName = mapCardToGridCell(card)
 
+    const cardPosElem = document.querySelector(cardPositionClassName)
+
+    addChildElement(cardPosElem, card)
 }
 
 function mapCardToGridCell()

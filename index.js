@@ -133,3 +133,8 @@ function loadGame()
 {
     createCards()
 }
+
+function startGame()
+{
+
+}

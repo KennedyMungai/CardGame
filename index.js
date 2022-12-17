@@ -11,6 +11,8 @@ const cardContainerElem = document.querySelector('.card-container')
 
 let cards = []
 
+const playGameButtonElement = document.getElementById('playGame')
+
 loadGame()
 
 function createCards()

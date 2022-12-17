@@ -151,3 +151,8 @@ function initializeNewGame()
 {
 
 }
+
+function startRound()
+{
+
+}

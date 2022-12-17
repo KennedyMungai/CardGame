@@ -2,6 +2,7 @@
     --card-width: 157px;
     --card-height: 220px;
     --num-card: 4;
+    --card-horizontal-space: 100%;
 }
 
 .card-container {

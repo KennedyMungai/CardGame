@@ -5,6 +5,8 @@ const cardObjectDefinitions = [
     { id: 4, imagePath: "/images/card-AceSpades.png" },
 ]
 
+const cardBackImgPath = '/images/card-back-Blue.png'
+
 function createCard(cardItem)
 {
     // These are teh div elements that make up the card

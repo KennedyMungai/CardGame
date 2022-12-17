@@ -190,7 +190,12 @@ function addCardsToGridAreaCell(cellPositionClassName)
 
 function flipCard(card, flipToBack)
 {
+    const innerCardElem = card.firstChild
 
+    if (flipToBack && !innerCardElem.classList.contains('flip-it'))
+    {
+        innerCardElem.classList.add('flip-it')
+    }
 }
 
 function flipCards(flipToBack)

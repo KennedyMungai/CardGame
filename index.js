@@ -188,6 +188,11 @@ function addCardsToGridAreaCell(cellPositionClassName)
     })
 }
 
+function flipCard(card, flipToBack)
+{
+
+}
+
 function flipCards(flipToBack)
 {
 

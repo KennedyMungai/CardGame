@@ -260,6 +260,8 @@ function initializeCardPositions()
 function dealCards()
 {
     addCardsToAppropriateCell()
+
+    const areasTemplate = returnGridAreasMappedToCardPos()
 }
 
 function addCardsToAppropriateCell()

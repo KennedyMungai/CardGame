@@ -144,5 +144,10 @@ function loadGame()
 
 function startGame()
 {
+    alert('')
+}
+
+function initializeNewGame()
+{
 
 }

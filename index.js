@@ -196,6 +196,10 @@ function flipCard(card, flipToBack)
     {
         innerCardElem.classList.add('flip-it')
     }
+    else if (innerCardElem.classList.contains('flip-it'))
+    {
+        innerCardElem.classList.remove('flip-it')
+    }
 }
 
 function flipCards(flipToBack)

@@ -173,5 +173,5 @@ function collectCards()
 
 function transformGridArea(areas)
 {
-
+    cardContainerElem.style.gridTemplateAreas = areas
 }

@@ -55,6 +55,9 @@ function createCard(cardItem)
 
     // Add back card element as a child element to inner card element
     addChildElement(cardInnerElem, cardBackElem)
+
+    // Added the inner element as a child of the card element
+    addChildElement(cardElem, cardInnerElem)
 }
 
 function createElement(elemType)

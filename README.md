@@ -1,2 +1,3 @@
 # CardGame
-A simple browser card game
+
+A simple browser card game made in HTML, CSS and Javascript

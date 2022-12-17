@@ -4,8 +4,8 @@
 }
 
 .card-container {
-    margin-top: 30px;
     position: relative;
+    height: 100%;
 }
 
 body {

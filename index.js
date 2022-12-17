@@ -256,3 +256,8 @@ function initializeCardPositions()
 {
     cardPositions.push(card.id)
 }
+
+function dealCards()
+{
+
+}

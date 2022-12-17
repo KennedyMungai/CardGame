@@ -9,6 +9,8 @@ const cardBackImgPath = '/images/card-back-Blue.png'
 
 const cardContainerElem = document.querySelector('.card-container')
 
+let cards = []
+
 loadGame()
 
 function createCards()

@@ -7,6 +7,8 @@ const cardObjectDefinitions = [
 
 const cardBackImgPath = '/images/card-back-Blue.png'
 
+const cardContainerElem = document.querySelector('.card-container')
+
 function createCard(cardItem)
 {
     // These are teh div elements that make up the card

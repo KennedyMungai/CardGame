@@ -2,7 +2,7 @@
     --card-width: 157px;
     --card-height: 220px;
     --num-cards: 4;
-    --card-horizontal-space: 100%;
+    --card-horizontal-space: 100px;
 }
 
 body {

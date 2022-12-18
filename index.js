@@ -28,6 +28,8 @@ const winColor = "green"
 
 const loseColor = "red"
 
+const primaryColor = "black"
+
 let gameInProgress = false
 let shufflingInProgress = false
 let cardsRevealed = false

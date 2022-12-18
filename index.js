@@ -173,6 +173,9 @@ function loadGame()
     cards = document.querySelectorAll('.card')
 
     playGameButtonElement.addEventListener('click', () => startGame())
+
+    updateStatusElement(scoreContainerElem, "none")
+    updateStatusElement(roundContainerElem, "none")
 }
 
 function startGame()

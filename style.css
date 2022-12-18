@@ -131,5 +131,8 @@ header {
 .header-round-container,
 .header-img-container {
     width: 150px;
+}
 
+.header-img {
+    height: 75px;
 }

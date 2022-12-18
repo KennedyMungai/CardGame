@@ -32,6 +32,10 @@ let gameInProgress = false
 let shufflingInProgress = false
 let cardsRevealed = false
 
+let roundNum = 0
+let maxRounds = 4
+let score = 0
+
 loadGame()
 
 function createCards()

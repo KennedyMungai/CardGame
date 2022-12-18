@@ -326,7 +326,7 @@ function addCardsToAppropriateCell()
     })
 }
 
-function chooseCard()
+function chooseCard(card)
 {
     if (canChooseCard())
     {

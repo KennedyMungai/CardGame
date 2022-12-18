@@ -330,7 +330,14 @@ function chooseCard()
 
 function evaluateCardChoice(card)
 {
-
+    if (card.id == aceId)
+    {
+        outputChoiceFeedBack(true)
+    }
+    else
+    {
+        outputChoiceFeedBack(true)
+    }
 }
 
 function canChooseCard()

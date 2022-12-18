@@ -546,11 +546,11 @@ function createCard(cardItem)
 
     initializeCardPositions(cardElem)
 
-    attatchClickEventHandlerToCard(cardElem)
+    attachClickEventHandlerToCard(cardElem)
 
 
 }
-function attatchClickEventHandlerToCard(card)
+function attachClickEventHandlerToCard(card)
 {
     card.addEventListener('click', () => chooseCard(card))
 }

@@ -328,6 +328,11 @@ function chooseCard()
     }
 }
 
+function outputChoiceFeedBack(hit)
+{
+
+}
+
 function evaluateCardChoice(card)
 {
     if (card.id == aceId)

@@ -192,7 +192,7 @@ function initializeNewGame()
     updateStatusElement(roundContainerElem, "flex")
 
     updateStatusElement(scoreElem, "block", primaryColor, `Score <span class='badge'${score}></span>`)
-    updateStatusElement(roundElem, "block", primaryColor, `Round <span class='badge'${round}></span>`)
+    updateStatusElement(roundElem, "block", primaryColor, `Round <span class='badge'${roundNum}></span>`)
 }
 
 function initializeNewRound()
@@ -206,7 +206,7 @@ function initializeNewRound()
 
     updateStatusElement(currentGameStatusElem, "block", primaryColor, "Shuffling...")
 
-    updateStatusElement(roundElem, "block", primaryColor, `Round <span class='badge'${round}></span>`)
+    updateStatusElement(roundElem, "block", primaryColor, `Round <span class='badge'${roundNum}></span>`)
 }
 
 function startRound()

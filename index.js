@@ -203,6 +203,8 @@ function initializeNewRound()
     cardsRevealed = false
 
     updateStatusElement(currentGameStatusElem, "block", primaryColor, "Shuffling...")
+
+    updateStatusElement(roundElem, "block", primaryColor, "Shuffling...")
 }
 
 function startRound()

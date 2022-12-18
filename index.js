@@ -20,6 +20,8 @@ const numCards = cardObjectDefinitions.length
 
 const cardPositions = []
 
+let gameInProgress = false
+
 loadGame()
 
 function createCards()
@@ -312,4 +314,14 @@ function addCardsToAppropriateCell()
     {
         addCardToGridCell(card)
     })
+}
+
+function chooseCard()
+{
+
+}
+
+function canChooseCard()
+{
+    return gameInProgress == true && !shufflingInProgress && !cardsRevealed
 }

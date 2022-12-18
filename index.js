@@ -332,6 +332,7 @@ function evaluateCardChoice(card)
 {
     if (card.id == aceId)
     {
+        updateScore()
         outputChoiceFeedBack(true)
     }
     else

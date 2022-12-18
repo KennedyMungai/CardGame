@@ -320,7 +320,10 @@ function addCardsToAppropriateCell()
 
 function chooseCard()
 {
+    if (canChooseCard())
+    {
 
+    }
 }
 
 function canChooseCard()

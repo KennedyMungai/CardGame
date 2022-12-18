@@ -204,7 +204,7 @@ function initializeNewRound()
 
     updateStatusElement(currentGameStatusElem, "block", primaryColor, "Shuffling...")
 
-    updateStatusElement(roundElem, "block", primaryColor, "Shuffling...")
+    updateStatusElement(roundElem, "block", primaryColor, `Round <span class='badge'${round}></span>`)
 }
 
 function startRound()

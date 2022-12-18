@@ -21,6 +21,7 @@ const numCards = cardObjectDefinitions.length
 const cardPositions = []
 
 let gameInProgress = false
+let shufflingInProgress = false
 
 loadGame()
 

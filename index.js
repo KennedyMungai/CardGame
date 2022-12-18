@@ -293,6 +293,8 @@ function gameOver()
                             | Click 'Play Game' button to play again`
 
     updateStatusElement(currentGameStatusElem, "block", primaryColor, gameOverMessage)
+
+    gameInProgress = false
 }
 
 function shuffleCards()

@@ -326,6 +326,11 @@ function chooseCard()
     }
 }
 
+function evaluateCardChoice(card)
+{
+
+}
+
 function canChooseCard()
 {
     return gameInProgress == true && !shufflingInProgress && !cardsRevealed

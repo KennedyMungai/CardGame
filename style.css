@@ -106,3 +106,8 @@ header {
     flex-direction: column;
     margin-bottom: 10px;
 }
+
+.head-title-container {
+    display: flex;
+    justify-content: center;
+}

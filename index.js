@@ -20,6 +20,8 @@ const numCards = cardObjectDefinitions.length
 
 const cardPositions = []
 
+const aceId = 4
+
 let gameInProgress = false
 let shufflingInProgress = false
 let cardsRevealed = false

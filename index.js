@@ -22,6 +22,8 @@ const cardPositions = []
 
 const aceId = 4
 
+const currentGameStatusElem = document.querySelector('current-state')
+
 let gameInProgress = false
 let shufflingInProgress = false
 let cardsRevealed = false

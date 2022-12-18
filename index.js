@@ -295,6 +295,7 @@ function gameOver()
     updateStatusElement(currentGameStatusElem, "block", primaryColor, gameOverMessage)
 
     gameInProgress = false
+    playGameButtonElement.disabled = false
 }
 
 function shuffleCards()

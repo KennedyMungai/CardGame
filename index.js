@@ -175,7 +175,10 @@ function startGame()
 
 function initializeNewGame()
 {
+    score = 0
+    roundNum = 0
 
+    shufflingInProgress = false
 }
 
 function startRound()

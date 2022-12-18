@@ -364,6 +364,7 @@ function chooseCard(card)
     if (canChooseCard())
     {
         evaluateCardChoice()
+        flipCard(card, false)
     }
 }
 

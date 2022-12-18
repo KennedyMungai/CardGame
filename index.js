@@ -379,3 +379,8 @@ function updateScore()
 {
     calculateScore()
 }
+
+function calculateScore()
+{
+    const scoreToAdd = calculateScoreToAdd(roundNum)
+}

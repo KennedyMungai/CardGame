@@ -291,6 +291,8 @@ function gameOver()
 
     const gameOverMessage = `Game Over - Final Score - <span class="badge">${score}</span>
                             | Click 'Play Game' button to play again`
+
+    updateStatusElement(currentGameStatusElem, "block", primaryColor, gameOverMessage)
 }
 
 function shuffleCards()

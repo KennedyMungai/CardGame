@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 main {
@@ -92,10 +92,10 @@ main {
     transform: rotateY(180deg);
 }
 
-/* 
+
 .card:hover .card-inner {
     transform: rotateY(180deg);
-} */
+}
 
 .card-inner .flip-it {
     transform: rotateY(180deg);

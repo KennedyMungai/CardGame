@@ -330,7 +330,7 @@ function chooseCard()
 {
     if (canChooseCard())
     {
-
+        evaluateCardChoice()
     }
 }
 

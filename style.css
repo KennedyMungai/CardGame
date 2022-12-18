@@ -117,6 +117,16 @@ header {
     justify-content: space-evenly;
 }
 
+.header-status-info-container,
+.header-button-container,
+.header-score-container,
+.header-img-container,
+.header-round-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-score-container,
 .header-round-container,
 .header-img-container {

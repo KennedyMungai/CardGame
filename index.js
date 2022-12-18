@@ -363,3 +363,8 @@ function canChooseCard()
 {
     return gameInProgress == true && !shufflingInProgress && !cardsRevealed
 }
+
+function updateStatusElement()
+{
+
+}

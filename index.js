@@ -24,6 +24,10 @@ const aceId = 4
 
 const currentGameStatusElem = document.querySelector('.current-state')
 
+const winColor = "green"
+
+const loseColor = "red"
+
 let gameInProgress = false
 let shufflingInProgress = false
 let cardsRevealed = false

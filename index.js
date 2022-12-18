@@ -181,6 +181,18 @@ function initializeNewGame()
     shufflingInProgress = false
 }
 
+function initializeNewRound()
+{
+    roundNum++
+    playGameButtonElement.disabled = true
+
+    gameInProgress = true
+    shufflingInProgress = true
+    cardsRevealed = false
+
+    updateStatusElement(currentGameStatusElem, "block")
+}
+
 function startRound()
 {
     initializeNewGame()

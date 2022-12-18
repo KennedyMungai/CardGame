@@ -336,7 +336,7 @@ function outputChoiceFeedBack(hit)
     }
     else
     {
-        updateStatusElement(currentGameStatusElem, "block", loseColor, "Missed!! :)")
+        updateStatusElement(currentGameStatusElem, "block", loseColor, "Missed!! :(")
     }
 }
 

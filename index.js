@@ -268,6 +268,22 @@ function flipCards(flipToBack)
     })
 }
 
+function endRound()
+{
+    setTimeout(() =>
+    {
+        if (roundNum == maxRounds)
+        {
+            gameOver()
+            return
+        }
+        else
+        {
+            startRound()
+        }
+    }, 3000);
+}
+
 function shuffleCards()
 {
     const id = setInterval(shuffle, 12)
@@ -284,6 +300,8 @@ function shuffleCards()
             shufflingInProgress = false
             dealCards()
             updateStatusElement(currentGameStatusElem, "block", primaryColor, "Please click the card that you think is in the ace of spades...")
+
+            endRound()
         }
         else 
         {

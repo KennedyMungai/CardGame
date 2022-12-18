@@ -108,6 +108,8 @@ function createCard(cardItem)
     addCardToGridCell(cardElem)
 
     initializeCardPositions(cardElem)
+
+    attachClickEventHandlerToCard(card)
 }
 
 function createElement(elemType)

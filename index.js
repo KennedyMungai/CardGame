@@ -109,7 +109,7 @@ function createCard(cardItem)
 
     initializeCardPositions(cardElem)
 
-    attachClickEventHandlerToCard(card)
+    attachClickEventHandlerToCard(cardElem)
 }
 
 function createElement(elemType)

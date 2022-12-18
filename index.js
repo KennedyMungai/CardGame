@@ -24,6 +24,8 @@ const aceId = 4
 
 const currentGameStatusElem = document.querySelector('.current-state')
 
+const scoreContainerElem = document.querySelector('.header-score-container')
+
 const winColor = "green"
 
 const loseColor = "red"

@@ -334,6 +334,10 @@ function outputChoiceFeedBack(hit)
     {
         updateStatusElement(currentGameStatusElem, "block", winColor, "Hit!! - Well Done! :)")
     }
+    else
+    {
+        updateStatusElement(currentGameStatusElem, "block", loseColor, "Missed!! :)")
+    }
 }
 
 function evaluateCardChoice(card)

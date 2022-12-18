@@ -447,3 +447,8 @@ function calculateScoreToAdd(roundNum)
         return 10
     }
 }
+
+function attachClickEventHandlerToCard(card)
+{
+    card.addEventListener('click', () => chooseCard(card))
+}   

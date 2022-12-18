@@ -284,6 +284,15 @@ function endRound()
     }, 3000);
 }
 
+function gameOver()
+{
+    updateStatusElement(scoreContainerElem, "none")
+    updateStatusElement(roundContainerElem, "none")
+
+    const gameOverMessage = `Game Over - Final Score - <span class="badge">${score}</span>
+                            | Click 'Play Game' button to play again`
+}
+
 function shuffleCards()
 {
     const id = setInterval(shuffle, 12)

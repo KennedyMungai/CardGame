@@ -281,6 +281,8 @@ function shuffleCards()
         if (shuffleCount == 500)
         {
             clearInterval(id)
+            shufflingInProgress = false
+            dealCards()
         }
         else 
         {

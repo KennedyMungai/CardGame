@@ -187,6 +187,7 @@ function initializeNewGame()
     shufflingInProgress = false
 
     updateStatusElement(scoreContainerElem, "flex")
+    updateStatusElement(roundContainerElem, "flex")
 }
 
 function initializeNewRound()

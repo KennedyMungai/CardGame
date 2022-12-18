@@ -457,6 +457,7 @@ function updateStatusElement(elem, display, color, innerHTML)
 function updateScore()
 {
     calculateScore()
+    updateStatusElement(scoreElem, "block", primaryColor, `<span class="badge">${score}</span>`)
 }
 
 function calculateScore()

@@ -22,6 +22,7 @@ const cardPositions = []
 
 let gameInProgress = false
 let shufflingInProgress = false
+let cardsRevealed = false
 
 loadGame()
 

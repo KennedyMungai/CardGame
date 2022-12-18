@@ -116,3 +116,10 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+
+.header-score-container,
+.header-round-container,
+.header-img-container {
+    width: 150px;
+
+}

@@ -374,3 +374,8 @@ function updateStatusElement(elem, display, color, innerHTML)
         elem.innerHTML = innerHTML
     }
 }
+
+function updateScore()
+{
+    calculateScore()
+}

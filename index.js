@@ -283,6 +283,7 @@ function shuffleCards()
             clearInterval(id)
             shufflingInProgress = false
             dealCards()
+            updateStatusElement(currentGameStatusElem, "block", primaryColor, "Please click the card that you think is in the ace of spades...")
         }
         else 
         {

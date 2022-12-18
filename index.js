@@ -366,6 +366,14 @@ function chooseCard(card)
         evaluateCardChoice()
         flipCard(card, false)
     }
+
+    setTimeout(() =>
+    {
+        flipCards(false)
+        updateStatusElement(currentGameStatusElem, "block", primaryColor, "Card Positions revealed")
+    }, 3000);
+
+    cardsRevealed = true
 }
 
 function outputChoiceFeedBack(hit)

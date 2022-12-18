@@ -300,7 +300,7 @@ function randomizeCardPositions()
     cardPositions[random2 - 1] = temp
 }
 
-function initializeCardPositions()
+function initializeCardPositions(card)
 {
     cardPositions.push(card.id)
 }
